@@ -1,10 +1,7 @@
-```markdown
 # 📄 AI Resume Screening App  
 
 An end-to-end machine learning project that classifies resumes into job categories using **Natural Language Processing (NLP)** and **Machine Learning**.  
 This app automates resume screening and demonstrates my ability to combine **data preprocessing, model building, and deployment with Streamlit** into a real, working product.  
-
----
 
 ## 🚀 Features  
 - **Resume Upload:** Supports PDF and TXT formats.  
@@ -15,24 +12,18 @@ This app automates resume screening and demonstrates my ability to combine **dat
 - **Role Insights:** Provides a description of the predicted job category.  
 - **Resume Stats:** Displays word count, sentence count, and other useful metrics.  
 
----
-
 ## 🧑‍💻 Tech Stack  
 - **Programming Language:** Python  
 - **Libraries:** Scikit-learn, Pandas, NumPy, NLTK, PyPDF2, Plotly, Streamlit  
 - **Machine Learning:**  
   - TF-IDF vectorizer for feature extraction  
   - KNN Classifier wrapped in One-Vs-Rest strategy  
-- **Deployment/UI:** Streamlit  
-
----
-
+- **Deployment/UI:** Streamlit
+- 
 ## 📊 Dataset  
 - **Source:** A dataset of ~950 resumes labeled across 24 categories (e.g., *Data Science, Python Developer, Java Developer, DevOps Engineer, HR, Business Analyst, etc.*).  
 - Performed **exploratory data analysis (EDA)** to understand category distribution and imbalance.  
 - Applied preprocessing to clean raw resume text for training the model.  
-
----
 
 ## 🏗️ Workflow  
 1. **Data Preprocessing**  
@@ -50,10 +41,7 @@ This app automates resume screening and demonstrates my ability to combine **dat
    - Saved trained model and vectorizer as `encoder.pkl.pkl` and `tfidf.pkl`.  
    - Integrated into a **Streamlit web app** with interactive UI.  
 
----
-
 ## 📂 Project Structure  
-```
 
 📦 AI-Resume-Screening
 │── app.py                 # Streamlit app
@@ -63,17 +51,13 @@ This app automates resume screening and demonstrates my ability to combine **dat
 │── assets/                 # Screenshots for README
 │── README.md               # Project Documentation
 
-````
-
----
-
 ## ⚙️ Installation  
 
 1. Clone the repository  
 ```bash
 git clone https://github.com/your-username/ai-resume-screening.git
 cd ai-resume-screening
-````
+```
 
 2. Create virtual environment & install dependencies
 
@@ -89,16 +73,11 @@ pip install -r requirements.txt
 ```bash
 streamlit run app.py
 ```
-
----
-
 ## 🎯 Results
 
 * **Accuracy:** 98.4% on validation data
 * **Top 5 Predictions:** Confidence visualization helps understand alternative role fits.
 * **Practical Value:** Can reduce initial resume screening time significantly.
-
----
 
 ## 🌟 Learnings
 
@@ -107,8 +86,6 @@ streamlit run app.py
 * Building a **full-stack data science project** (EDA → Model Training → Deployment).
 * Creating a **user-friendly web application** with Streamlit.
 
----
-
 ## 📬 Contact
 
 👤 Mohammed Ali Patel
@@ -116,10 +93,6 @@ streamlit run app.py
 🔗 [LinkedIn](https://linkedin.com/in/alipatel786)
 💻 [GitHub](https://github.com/mohdalipatel8976)
 
----
-
 👉 This project represents my ability to take a problem from **raw data to deployment**, blending **data science** and **software development** to build something practical and impactful.
-
-```
 
 
