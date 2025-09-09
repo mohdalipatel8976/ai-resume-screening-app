@@ -2,3 +2,4 @@ streamlit
 nltk
 PyPDF2
 plotly
+scikit-learn
