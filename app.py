@@ -2,12 +2,8 @@ import streamlit as st
 import pickle
 import re
 import nltk
-import pandas as pd
-from sklearn.feature_extraction.text import TfidfVectorizer
-from pathlib import Path
 import PyPDF2
 import io
-import plotly.express as px
 import plotly.graph_objects as go
 
 # Configure page
