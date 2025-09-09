@@ -3,6 +3,9 @@
 An end-to-end machine learning project that classifies resumes into job categories using **Natural Language Processing (NLP)** and **Machine Learning**.  
 This app automates resume screening and demonstrates my ability to combine **data preprocessing, model building, and deployment with Streamlit** into a real, working product.  
 
+## DEMO LINK 
+- **https://ai-resume-screening-app-created-by-alimack.streamlit.app/**
+
 ## 🚀 Features  
 - **Resume Upload:** Supports PDF and TXT formats.  
 - **Text Cleaning & Preprocessing:** Removes emails, phone numbers, links, and special characters.  
